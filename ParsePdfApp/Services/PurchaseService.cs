@@ -8,7 +8,6 @@ namespace ParsePdfApp.ServicesВ
 
         public PurchaseService()
         {
-            // Инициализируем список пользователей здесь, чтобы он не требовал регистрации в DI контейнере
             _purchases = new List<Purchase>
             {
             new PurchaseWithFile
