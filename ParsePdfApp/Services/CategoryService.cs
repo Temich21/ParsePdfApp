@@ -8,7 +8,6 @@ namespace ParsePdfApp.Services
 
         public CategoryService()
         {
-            // Инициализируем список пользователей здесь, чтобы он не требовал регистрации в DI контейнере
             _category = new List<Category>
             {
             new Category { Id = Guid.NewGuid(), Name = "Bakery and Confectionery", Expenses = 2000, Color = "#FDEBD0" }, // Warm Beige
